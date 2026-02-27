@@ -14,9 +14,9 @@ export function LandingPage({ onStart }: Props) {
         </p>
 
         <div className="text-left bg-white rounded-xl shadow-md p-6 mb-8 space-y-3">
-          <Feature icon="\u{1F3A4}" text="Auto-detects buzzwords via your microphone" />
-          <Feature icon="\u{1F3B2}" text="3 category packs to choose from" />
-          <Feature icon="\u{1F389}" text="Get BINGO and celebrate (silently)" />
+          <Feature icon={"🎤"} text="Auto-detects buzzwords via your microphone" />
+          <Feature icon={"🎲"} text="3 category packs to choose from" />
+          <Feature icon={"🎉"} text="Get BINGO and celebrate (silently)" />
         </div>
 
         <Button size="lg" onClick={onStart}>

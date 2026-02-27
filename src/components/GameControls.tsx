@@ -18,8 +18,8 @@ export function GameControls({ isListening, isSupported, onToggleListen, onReset
         {!isSupported
           ? 'Speech Not Supported'
           : isListening
-            ? '\u{1F534} Stop Listening'
-            : '\u{1F3A4} Start Listening'}
+            ? '🔴 Stop Listening'
+            : '🎤 Start Listening'}
       </Button>
       <Button variant="ghost" onClick={onReset}>
         New Game

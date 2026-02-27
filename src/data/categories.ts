@@ -5,7 +5,7 @@ export const CATEGORIES: Category[] = [
     id: 'agile',
     name: 'Agile & Scrum',
     description: 'Sprint planning, standups, and retrospectives',
-    icon: '\u{1F3C3}',
+    icon: '🏃',
     words: [
       'sprint', 'backlog', 'standup', 'retrospective', 'velocity',
       'blocker', 'story points', 'epic', 'user story', 'scrum master',
@@ -23,7 +23,7 @@ export const CATEGORIES: Category[] = [
     id: 'corporate',
     name: 'Corporate Speak',
     description: 'Synergy, leverage, and circling back',
-    icon: '\u{1F4BC}',
+    icon: '💼',
     words: [
       'synergy', 'leverage', 'circle back', 'take offline', 'bandwidth',
       'low-hanging fruit', 'move the needle', 'deep dive', 'touch base',
@@ -41,7 +41,7 @@ export const CATEGORIES: Category[] = [
     id: 'tech',
     name: 'Tech & Engineering',
     description: 'APIs, cloud, and architecture discussions',
-    icon: '\u{1F4BB}',
+    icon: '💻',
     words: [
       'API', 'cloud', 'microservices', 'serverless', 'containerized',
       'kubernetes', 'docker', 'CI/CD', 'pipeline', 'deployment',
