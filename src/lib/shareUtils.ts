@@ -5,7 +5,7 @@ import { GameState } from '../types';
  */
 export function buildShareText(game: GameState): string {
   const categoryName = game.category
-    ? { agile: 'Agile & Scrum', corporate: 'Corporate Speak', tech: 'Tech & Engineering' }[game.category]
+    ? { agile: 'Agile & Scrum', corporate: 'Corporate Speak', tech: 'Tech & Engineering', olympics: 'Olympics', videogames: 'Video Games', fruits: 'Fruits' }[game.category]
     : 'Meeting';
 
   let timeStr = '';
